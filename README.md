@@ -1,4 +1,11 @@
 # Yelp
+in this project we used nodejs as a backend angular as ui
+
+for node js deployment use the following command
+
+node server.js
+
+default port was 3000
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
