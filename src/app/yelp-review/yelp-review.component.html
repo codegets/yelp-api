@@ -1,0 +1,39 @@
+<div class="container-fluid px-1 py-5 mx-auto">
+  <div class="row">
+    <div class="col-sm">
+      <div class="card">
+<div class="row">
+  <div class="col-sm">
+    <div class="">
+      <div class="rating-box">
+        <h1 class="pt-4">{{review.rating}}.0</h1>
+        <p class="">out of 5</p>
+      </div>
+      <div> <span class="fa fa-star star-active mx-1"></span> <span class="fa fa-star star-active mx-1"></span> <span class="fa fa-star star-active mx-1"></span> <span class="fa fa-star star-active mx-1"></span> <span class="fa fa-star star-inactive mx-1"></span> </div>
+    </div>
+    <small>
+      <span class="fa fa-star checked"></span>
+    </small>
+  </div>
+  <div class="col-sm">
+      <div class="row d-flex">
+        <div class=""> <img class="profile-pic" src="{{review.user.image_url}}"> </div>
+        <div class="d-flex flex-column">
+          <h3 class="mt-2 mb-0">{{review.user.name}}</h3>
+        </div>
+        <div class="ml-auto">
+          <p class="text-muted pt-5 pt-sm-3">{{review.time_created}}</p>
+        </div>
+      </div>
+      <div class="row text-left">
+        <p class="content">{{review.text}}</p>
+      </div>
+  </div>
+  </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
